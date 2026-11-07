@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tracing bayt Across Three Millennia</title>
+<meta name="description" content="A slide presentation tracing the Semitic root b-y-t ('house') across twelve languages through real objects: tablets, inscriptions, manuscripts and printed texts. Dr. Nathaniel Miller, campus visit presentation, Ohio State University Libraries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Noto+Sans+Cuneiform&family=Noto+Sans+Ugaritic&family=Noto+Sans+Phoenician&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Old+North+Arabian&family=Noto+Serif+Hebrew:wght@400;600&family=Noto+Naskh+Arabic:wght@400;600&family=Noto+Sans+Syriac&family=Noto+Serif+Ethiopic:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/deck.css">
+</head>
+<body>
+<div class="topbar"><div class="fill"></div></div>
+
+<main class="deck">
+
+<!-- 1 · TITLE -->
+<section class="slide title-slide" data-title="Title">
+  <div class="title-wrap">
+    <div>
+      <p class="kicker">One root · twelve languages · clay to couplet</p>
+      <h1>Tracing <em>bayt</em> Across Three Millennia</h1>
+      <p class="subtitle">Following the Semitic word for “house” through tablets, inscriptions, manuscripts and printed texts.</p>
+      <div class="byline">
+        <div class="name">Dr. Nathaniel Miller</div>
+        <div class="aff">Campus visit presentation · Ohio State University Libraries</div>
+      </div>
+      <div class="scripts-ribbon" aria-hidden="true">
+        <span class="s-cun">𒁉𒌓</span><span class="s-uga">𐎁𐎚</span><span class="s-phn">𐤁𐤕</span><span class="s-heb">בית</span><span class="s-sab">𐩨𐩺𐩩</span><span class="s-ara">بيت</span><span class="s-syr">ܒܝܬܐ</span><span class="s-eth">ቤት</span><span>bejt</span><span>beyit</span>
+      </div>
+      <button class="begin" data-go-next>Click or tap to explore the objects →</button>
+      <div class="hint">Use the arrow keys, swipe, or the buttons below. Tap any image to enlarge it.</div>
+    </div>
+    <div class="qr-card">
+      <img src="assets/qr.svg" alt="QR code linking to this presentation">
+      <small>Follow along on your phone<br>nathaniel-a-miller.github.io/bayt-house</small>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Title</h5>
+    <ul>
+      <li>Welcome; frame the talk: one root, followed through real objects held in libraries, museums and digital archives.</li>
+      <li>Invite the audience to scan the QR code and browse on their own devices.</li>
+      <li>Shortcuts: N notes, G overview, T timer, F full screen.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2 · HOW TO READ -->
+<section class="slide" data-title="The root b-y-t">
+  <div class="intro">
+    <div class="slide-head"><span class="num">Introduction</span><h2>The root and how to read these slides</h2></div>
+    <p class="root-big"><span class="r">b</span>–<span class="r">y</span>–<span class="r">t</span></p>
+    <p class="lead">A single Proto-Semitic noun, <i>*bayt-</i> “house,” survives across the Semitic languages and travels, as a loanword, into Persian and Turkish. Along the way “house” becomes <b>temple</b>, <b>dynasty</b>, <b>household</b>, <b>roof</b> and, finally, a unit of <b>verse</b>.</p>
+    <div class="legend">
+      <div class="block"><h3>Root letters</h3><p>The letters of the root are shown in <b style="color:var(--scarlet)">scarlet</b> in every transliteration.</p></div>
+      <div class="block"><h3>Meaning tags</h3><p><span class="tag house">house</span> <span class="tag temple">temple</span> <span class="tag dynasty">dynasty</span> <span class="tag roof">roof</span> <span class="tag verse">verse</span></p></div>
+      <div class="block"><h3>On the images</h3><p>A <b>solid</b> scarlet box marks where the word itself appears. A <b>dashed</b> box marks only the inscribed area when the word is not legible at that resolution.</p></div>
+      <div class="block"><h3>Getting around</h3><p><span class="kbd">←</span> <span class="kbd">→</span> or swipe · <span class="kbd">G</span> overview · tap images to zoom · every slide has its own link.</p></div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · The root</h5>
+    <ul>
+      <li>Proto-Semitic *bayt- (Wiktionary etymologies for Ge'ez, Amharic and Maltese all point to it).</li>
+      <li>Preview the semantic journey: house → temple / palace / dynasty → household → roof → verse.</li>
+      <li>Librarian angle: every slide pairs an object with the catalogue or database record that makes it findable.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 3 · MAP -->
+<section class="slide" id="map-slide" data-title="Map">
+  <div class="slide-head"><span class="num">Where the objects come from</span><h2>A map of the evidence</h2><span class="sub">Tap a point to jump to its slide.</span></div>
+  <div id="map" role="region" aria-label="Map of find-spots"></div>
+  <div class="map-legend">
+    <span><i style="background:#ba0c2f"></i>Find-spot or place of copying of the object</span>
+    <span><i style="background:#9a9a9a;border:1px dashed #444"></i>Language area (dictionary evidence only)</span>
+    <span>Locations are approximate. Map tiles © OpenStreetMap contributors.</span>
+  </div>
+  <script type="application/json" id="map-data">
+  [
+    {"lat":32.19,"lon":48.26,"label":"Susa · Hammurabi stele","slide":4,"kind":"object"},
+    {"lat":35.60,"lon":35.78,"label":"Ugarit · Kirta tablet","slide":5,"kind":"object","dir":"left"},
+    {"lat":33.56,"lon":35.37,"label":"Sidon · Eshmunazar","slide":6,"kind":"object","dir":"left"},
+    {"lat":33.25,"lon":35.65,"label":"Tel Dan · stele","slide":7,"kind":"object"},
+    {"lat":31.74,"lon":35.46,"label":"Qumran · Isaiah Scroll","slide":8,"kind":"object","dir":"left"},
+    {"lat":32.90,"lon":37.10,"label":"al-ʿĪsāwī (approx.) · LP 949","slide":9,"kind":"object"},
+    {"lat":15.45,"lon":45.02,"label":"Ṣirwāḥ · temple of Almaqah","slide":10,"kind":"object"},
+    {"lat":30.01,"lon":31.23,"label":"al-Fusṭāṭ · Qurʾān fragment","slide":11,"kind":"object","dir":"left"},
+    {"lat":14.13,"lon":38.72,"label":"Ethiopia · Geʿez","slide":12,"kind":"language"},
+    {"lat":35.90,"lon":14.45,"label":"Malta · bejt","slide":13,"kind":"language"},
+    {"lat":32.50,"lon":53.70,"label":"Iran · Ḥāfiẓ manuscript (place not recorded)","slide":14,"kind":"object"},
+    {"lat":41.01,"lon":28.98,"label":"Istanbul · Ottoman Turkish","slide":15,"kind":"language"}
+  ]
+  </script>
+  <div class="notes">
+    <h5>Speaker notes · Map</h5>
+    <ul>
+      <li>Points are approximate, plotted by the presenter, not taken from the source records. al-ʿĪsāwī in particular is placed only roughly in Rif Dimašq.</li>
+      <li>Red = where an object was found or copied; gray = language areas where only dictionary evidence is shown.</li>
+      <li>Today the objects sit in Paris, Aleppo, Jerusalem, Washington and in situ in Syria and Yemen: a good moment to talk about dispersed collections and digital reunification.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 4 · AKKADIAN -->
+<section class="slide" data-title="Akkadian · Hammurabi stele">
+  <div class="slide-head"><span class="num">1 · Akkadian</span><h2>The Stele of Hammurabi, law 21</h2><span class="sub">Old Babylonian (ca. 1900–1600 BC per CDLI)</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure center"><div class="frame">
+        <img src="images/akkadian_hammurabi_stele_Sb8_Rama_CC-BY-SA-3.0-fr.jpg" alt="The basalt Stele of Hammurabi in the Louvre, with a relief at the top and cuneiform text below">
+      </div></div>
+      <p class="fig-cap">The law is on the face of the stele (CDLI column 9). Individual signs are not legible at this resolution, so no box is drawn.</p>
+      <div class="inset">
+        <h4>The word, typeset</h4>
+        <div class="typeset s-cun">𒁉𒌓</div>
+        <p><b>bi-tam</b>, Unicode cuneiform signs BI + UD (read <i>tam</i>), set in type for clarity. This is not an image from the stele.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Akkadian</span><span class="tag house">house</span></div>
+      <p class="word"><span class="r">bītam</span></p>
+      <p class="word-gloss">accusative of <i>bītu</i>, “house”</p>
+      <div class="block">
+        <h3>Transliteration (CDLI, col. 9, lines 14–16)</h3>
+        <p class="translit">šum-ma a-wi-lum / <span class="r">bi</span>-<span class="r">tam</span> / ip-lu-uš</p>
+        <p class="translit" style="margin-top:4px">šumma awīlum <span class="r">bītam</span> ipluš</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“If a man broke into a house …” <span class="who">(presenter's working translation)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> stele, found at Susa (CDLI provenience) · <b>Louvre, Sb 8</b> · CDLI P249253</p>
+      <p class="credit">Photo: Rama, CC BY-SA 3.0 FR, via Wikimedia Commons. Text: CDLI.</p>
+      <div class="links">
+        <a href="https://cdli.mpiwg-berlin.mpg.de/artifacts/249253" target="_blank" rel="noopener">CDLI record</a>
+        <a href="https://oracc.museum.upenn.edu/rinap/cbd/akk/B.html" target="_blank" rel="noopener">Oracc glossary: bītu</a>
+        <a href="https://commons.wikimedia.org/wiki/File:Code_of_Hammurabi-Sb_8-IMG_7755-white.jpg" target="_blank" rel="noopener">Image source</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Akkadian</h5>
+    <ul>
+      <li>Syllabic spelling bi-tam, not the usual logogram É: a rare chance to see the Semitic word spelled out.</li>
+      <li>Other spellings on the same stele: pa-qi2-id bi-tim (prologue), a-na bi-it (law 9), i-na bi-ti-šu (laws 16, 32).</li>
+      <li>Oracc RINAP glossary: bītu, 754 instances, 97% “house,” also “temple.”</li>
+      <li>Caveat: the translation is mine; check against Roth before quoting. CDLI line numbers may differ from printed editions. The photo shows the whole stele, not law 21.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 5 · UGARITIC -->
+<section class="slide" data-title="Ugaritic · Kirta epic">
+  <div class="slide-head"><span class="num">2 · Ugaritic</span><h2>The Kirta epic, KTU 1.14</h2><span class="sub">Clay tablet from Ugarit (Ras Shamra), scribe Ilimilku</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure center tall"><div class="frame">
+        <img src="images/ugaritic_KTU_1.14_EUPT_autograph_CC-BY-SA-4.0_web.jpg" data-full="images/ugaritic_KTU_1.14_EUPT_autograph_CC-BY-SA-4.0.webp" alt="Line drawing of both sides of the Kirta tablet, with columns i to vi">
+        <span class="hl area" style="left:63.3%;top:3.4%;width:29.5%;height:48.4%"></span>
+        <span class="hl-label" style="left:63.3%;top:3.4%">Column iii</span>
+      </div></div>
+      <p class="fig-cap">Dashed box: column iii, where line 38 falls. The exact line is not marked.</p>
+      <div class="inset">
+        <h4>The word, typeset</h4>
+        <div class="typeset s-uga">𐎁𐎁𐎚𐎊</div>
+        <p><b>b-bt-y</b>, “in my house,” in Unicode Ugaritic letters (left to right). Set in type, not cropped from the drawing.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Ugaritic</span><span class="tag house">house</span></div>
+      <p class="word"><span class="r">bt</span></p>
+      <p class="word-gloss"><i>bêtu</i>, “house”; here <i>bi bêtiya</i>, “in my house”</p>
+      <div class="block">
+        <h3>Transliteration (EUPT, col. iii, line 38)</h3>
+        <p class="translit">pd . in . b<span class="r">bt</span>y . ttn</p>
+        <p class="translit" style="margin-top:4px">pa dā ˀêna bi <span class="r">bêt</span>iya tâtin</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“Vielmehr gib, was in meinem Haus fehlt.” <span class="who">(EUPT)</span><br>“Rather, give what is lacking in my house.” <span class="who">(English from EUPT's German)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> clay tablet, 22 × 17 cm · <b>National Museum of Aleppo, M 8218 = A 2750</b> (AO 17.190) · RS 2.[003]+</p>
+      <p class="credit">Drawing: Noah Kröll / EUPT (Edition des ugaritischen poetischen Textkorpus), CC BY-SA 4.0.</p>
+      <div class="links">
+        <a href="https://eupt.uni-goettingen.de/edition.html" target="_blank" rel="noopener">EUPT edition</a>
+        <a href="https://eupt.uni-goettingen.de/api/eupt/img/KTU_1.14_Download.webp" target="_blank" rel="noopener">Full drawing</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Ugaritic</h5>
+    <ul>
+      <li>King Kirta has lost his family; in a dream ʾIlu tells him to win the princess Ḥurriya. “Give me what is lacking in my house” is his demand.</li>
+      <li>Same tablet: ii 43 yḥd . bth . sgr (“the only one left shall shut his house”), iv 40 hm . ḥry . bty (“if I may take Ḥurriya into my house”).</li>
+      <li>EUPT marks its text as Draft 3.2. Photos exist on InscriptiFact (registration required).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 6 · PHOENICIAN -->
+<section class="slide" data-title="Phoenician · Eshmunazar II">
+  <div class="slide-head"><span class="num">3 · Phoenician</span><h2>Sarcophagus of Eshmunazar II, king of Sidon</h2><span class="sub">Achaemenid period, ca. 525–475 BC (Louvre)</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure center tall"><div class="frame">
+        <img src="images/phoenician_eshmunazar_II_sarcophagus_AO4806_Onceinawhile_CC-BY-SA-4.0.jpg" alt="Anthropoid basalt sarcophagus with an Egyptian-style head; a 22-line Phoenician inscription covers the lid">
+        <span class="hl area" style="left:19.2%;top:41.8%;width:64.1%;height:35.4%"></span>
+        <span class="hl-label" style="left:19.2%;top:41.8%">22-line inscription</span>
+      </div></div>
+      <p class="fig-cap">Dashed box: the lid inscription. The word appears twice in line 18; letters are not legible at this resolution.</p>
+      <div class="inset">
+        <h4>The phrase, typeset</h4>
+        <div class="typeset s-phn" dir="rtl">𐤁𐤕 𐤋𐤁𐤏𐤋</div>
+        <p><b>bt lbʿl</b>, “a temple for Baal,” in Unicode Phoenician (right to left). Set in type, not cropped from the photo.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Phoenician</span><span class="tag temple">temple</span></div>
+      <p class="word s-phn" dir="rtl"><span class="r">𐤁𐤕</span></p>
+      <p class="word-gloss"><i>bīt</i>, “house”; with a god's name, “temple”</p>
+      <div class="block">
+        <h3>Text (line 18)</h3>
+        <p class="orig s-phn" dir="rtl"><span class="r">𐤁𐤕</span> 𐤋𐤁𐤏𐤋 𐤑𐤃𐤍 𐤅<span class="r">𐤁𐤕</span> 𐤋𐤏𐤔𐤕𐤓𐤕</p>
+        <p class="translit"><span class="r">bt</span> lbʿl ṣdn w<span class="r">bt</span> lʿštrt</p>
+        <p class="translit" style="margin-top:4px"><span class="r">bīt</span> labaʿl ṣīdōn we<span class="r">bīt</span> laʿaštart</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“…a temple for Baal of Sidon, and a temple for Ashtart, the Name of Baal.”<br><span class="who">Louvre (tr. Bordreuil & Gubel): “le temple pour le Ba'al de Sidon et le temple pour Ashtart-nom-de-Ba'al”</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> basalt (amphibolite) sarcophagus, H. 256 cm, found 1855 near Sidon · <b>Louvre, AO 4806</b> · KAI 14</p>
+      <p class="credit">Photo: Onceinawhile, CC BY-SA 4.0, via Wikimedia Commons.</p>
+      <div class="links">
+        <a href="https://collections.louvre.fr/ark:/53355/cl010120357" target="_blank" rel="noopener">Louvre record</a>
+        <a href="https://en.wikipedia.org/wiki/Sarcophagus_of_Eshmunazar_II" target="_blank" rel="noopener">Text table (Wikipedia)</a>
+        <a href="https://commons.wikimedia.org/wiki/File:Eshmunazar_II_sarcophagus_(cleaned_up).jpg" target="_blank" rel="noopener">Image source</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Phoenician</h5>
+    <ul>
+      <li>King and queen-mother list the temples they built: for Ashtart, for Eshmun, for Baal of Sidon.</li>
+      <li>Watch out: line 15 has bt mlk = <i>bat</i> “daughter (of the king),” a different word with the same consonants.</li>
+      <li>Caveat: the letter-by-letter Phoenician text is from Wikipedia's table (citing Gzella 2011, Amadasi Guzzo 2019); confirm against KAI 14 before printing.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 7 · ARAMAIC -->
+<section class="slide" data-title="Aramaic · Tel Dan stele">
+  <div class="slide-head"><span class="num">4 · Aramaic</span><h2>The Tel Dan stele: “House of David”</h2><span class="sub">Old Aramaic, 9th century BCE</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure"><div class="frame">
+        <img src="images/aramaic_tel_dan_stele_GaryTodd_CC0.jpg" alt="Three joined fragments of a basalt stele with Old Aramaic letters; one line is chalked in white">
+        <span class="hl" style="left:59.9%;top:60.9%;width:15.1%;height:7.0%"></span>
+      </div></div>
+      <div class="inset">
+        <h4>Zoom: where the word appears</h4>
+        <img src="images/insets/aramaic_teldan_bytdwd.jpg" alt="Close-up of the letters bytdwd on the Tel Dan stele">
+        <p>Read right to left: <b>b-y-t-d-w-d</b>, with <i>ml]k</i> just before it. This is the line chalked white in the museum display.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Old Aramaic</span><span class="tag dynasty">dynasty</span></div>
+      <p class="word s-phn" dir="rtl"><span class="r">𐤁𐤉𐤕</span>𐤃𐤅𐤃</p>
+      <p class="word-gloss"><i>bytdwd</i>, “House of David,” written as one word</p>
+      <div class="block">
+        <h3>Transliteration (CAL, “TDanStel 9”)</h3>
+        <p class="translit">ml]k | <span class="r">byt</span>dwd</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“King of the Davidic dynasty” <span class="who">(CAL)</span></p>
+        <h3 style="margin-top:12px">Later Aramaic: Syriac</h3>
+        <p class="orig s-syr" dir="rtl"><span class="r">ܒܝܬܐ</span></p>
+        <p class="translit"><span class="r">bayt</span>ā, “house”; CAL also lists the Syriac sense “strophe; section of a literary work”</p>
+      </div>
+      <p class="meta"><b>Object:</b> fragmentary basalt stele, found at Tel Dan 1993–94 · <b>Israel Museum, Jerusalem</b> (Israel Antiquities Authority collection)</p>
+      <p class="credit">Photo: Gary Todd, CC0, via Wikimedia Commons. Lexicon: Comprehensive Aramaic Lexicon.</p>
+      <div class="links">
+        <a href="https://cal.huc.edu/oneentry.php?lemma=by%20N&cits=all" target="_blank" rel="noopener">CAL entry</a>
+        <a href="https://commons.wikimedia.org/wiki/File:Aramaic_Inscription_on_Basalt_Monument,_Dan,_9th_Century_BC_(43167226572).jpg" target="_blank" rel="noopener">Image source</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Aramaic</h5>
+    <ul>
+      <li>The earliest mention of the House of David outside the Hebrew Bible; an Aramaean king (usually identified as Hazael) boasts of victory.</li>
+      <li>“House” = dynasty. CAL's other senses: household, family, school, temple, palace and, in Syriac, a strophe of a poem, which anticipates Arabic and Persian bayt.</li>
+      <li>Caveat: some scholars have questioned the reading because there is no word divider. IAA accession numbers could not be verified from a museum page.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 8 · HEBREW -->
+<section class="slide" data-title="Hebrew · Great Isaiah Scroll">
+  <div class="slide-head"><span class="num">5 · Hebrew</span><h2>The Great Isaiah Scroll, Isaiah 56:7</h2><span class="sub">Qumran Cave 1, ca. 125 BCE</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure center tall"><div class="frame">
+        <img src="images/hebrew_1QIsaa_col46_Isa55-8_57-2_GoogleArtProject_PD.jpg" alt="Column 46 of the Great Isaiah Scroll, Hebrew square script on parchment">
+        <span class="hl" style="left:3.4%;top:63.4%;width:30.5%;height:5.4%"></span>
+      </div></div>
+      <div class="inset">
+        <h4>Zoom: where the word appears</h4>
+        <img src="images/insets/hebrew_1QIsaa_bet.jpg" alt="Close-up of two line-endings in the Isaiah Scroll">
+        <p>Line ends (read right to left): <span class="s-heb">…ושמחתים <b>בבית</b></span> / <span class="s-heb">…כיא <b>ביתי בית</b></span>, “in the house of [my prayer] … for my house, a house [of prayer]”. Presenter's reading of the scroll.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Hebrew</span><span class="tag temple">temple</span></div>
+      <p class="word s-heb" dir="rtl"><span class="r">בֵּית</span></p>
+      <p class="word-gloss"><i>bêt</i>, “house (of)”; <i>bêtî</i>, “my house”</p>
+      <div class="block">
+        <h3>Text (Isaiah 56:7, Masoretic wording)</h3>
+        <p class="orig s-heb" dir="rtl">כִּי <span class="r">בֵיתִי</span> <span class="r">בֵּית</span>־תְּפִלָּה יִקָּרֵא לְכׇל־הָעַמִּים</p>
+        <p class="translit">kî <span class="r">bêt</span>î <span class="r">bêt</span>-təpillâ yiqqārēʾ lə-kol-hāʿammîm</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“For My House shall be called a house of prayer for all peoples.” <span class="who">(JPS, via Sefaria)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> parchment scroll, 734 cm, 54 columns · <b>Israel Museum, Jerusalem</b> (Shrine of the Book) · 1QIsa<sup>a</sup>, column 46 (Isa 55:8–57:2)</p>
+      <p class="credit">Image: Google Art Project, public domain, via Wikimedia Commons (column cropped). Hebrew: Sefaria, Miqra according to the Masorah (CC BY-SA).</p>
+      <div class="links">
+        <a href="http://dss.collections.imj.org.il/isaiah" target="_blank" rel="noopener">Israel Museum scroll viewer</a>
+        <a href="https://commons.wikimedia.org/wiki/File:The_Great_Isaiah_Scroll_MS_A_(1QIsa)_-_Google_Art_Project.jpg" target="_blank" rel="noopener">Image source</a>
+        <a href="https://www.sefaria.org/Isaiah.56.7" target="_blank" rel="noopener">Isaiah 56:7 (Sefaria)</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Hebrew</h5>
+    <ul>
+      <li>Column 46 holds Isaiah 55:8–57:2, per the Israel Museum's own viewer data.</li>
+      <li>The scroll spells כיא (with aleph) where the Masoretic text has כי: a small example of the scroll's 2,600+ variants.</li>
+      <li>Caveat: the Hebrew text in the panel is the Masoretic wording; the scroll's line readings in the inset are my own reading of the image. Check against the Ulrich & Flint edition.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 9 · ANCIENT NORTH ARABIAN -->
+<section class="slide" data-title="Ancient North Arabian · Safaitic LP 949">
+  <div class="slide-head"><span class="num">6 · Ancient North Arabian</span><h2>A Safaitic rock inscription: “This house belongs to Bnkf”</h2><span class="sub">Al-ʿĪsāwī, southern Syria · recorded 1904–05</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure"><div class="frame">
+        <img src="images/insets/safaitic_LP949_bt.jpg" data-full="images/ancient_north_arabian_safaitic_LP949_handcopy_Littmann1943_fair-use.jpg" alt="Hand copy of eight Safaitic letters; the last two, b and t, are boxed in scarlet">
+      </div></div>
+      <div class="inset">
+        <h4>Reading the copy</h4>
+        <p style="font-size:15px;margin-top:0">This inscription runs left to right: <b>l · b n k f · h · b t</b>. The scarlet box marks <b>bt</b>, “house,” after the article <b>h-</b>.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Safaitic</span><span class="tag house">house</span></div>
+      <p class="word s-ona" dir="rtl">𐪀<span class="r">𐪈𐪉</span></p>
+      <p class="word-gloss"><i>h-bt</i>, “the house” (Unicode Old North Arabian, typeset)</p>
+      <div class="block">
+        <h3>Transliteration (OCIANA)</h3>
+        <p class="translit">l bnkf h- <span class="r">bt</span></p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“This house [belongs] to Bnkf” <span class="who">(OCIANA)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> rock inscription, still <b>in situ</b> at al-ʿĪsāwī, Rif Dimašq, Syria · <b>LP 949</b> (Littmann 1943) · OCIANA record 2744</p>
+      <p class="credit">Hand copy after Littmann, <i>Safaïtic Inscriptions</i> (1943), no. 949, via OCIANA; used under fair use.</p>
+      <div class="links">
+        <a href="https://ociana.osu.edu/inscriptions/2744" target="_blank" rel="noopener">OCIANA record</a>
+        <a href="https://ociana.osu.edu/" target="_blank" rel="noopener">OCIANA at Ohio State</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Ancient North Arabian</h5>
+    <ul>
+      <li>OCIANA (Online Corpus of the Inscriptions of Ancient North Arabia) is hosted here at Ohio State, in NESA; ed. A. Al-Jallad and M.C.A. Macdonald.</li>
+      <li>OCIANA gives no date for this inscription; it is still in situ.</li>
+      <li>Same formula: ISB 20 (Jordan), “This house belongs to Ḍls¹ son of ʿlk,” though there bt is an editorial correction.</li>
+      <li>Dadanitic alternative with a regnal date: AH 197, “provided sufficient in their house.”</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 10 · SABAIC -->
+<section class="slide" data-title="Sabaic · CIH 366 a">
+  <div class="slide-head"><span class="num">7 · Old South Arabian (Sabaic)</span><h2>“He built the temple of Almaqah”: CIH 366 a</h2><span class="sub">Early Sabaic royal building text · Ṣirwāḥ, Yemen</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure"><div class="frame">
+        <img src="images/sabaic_CIH366a_Sirwah_DASI_fair-use.jpg" alt="Photographs and hand copies of three copies of a Sabaic wall inscription, labelled Fakhry 1+7, Fakhry 2 and Fakhry 3">
+        <span class="hl" style="left:54.7%;top:34.3%;width:13.3%;height:3.3%"></span>
+      </div></div>
+      <div class="inset">
+        <h4>Zoom: where the word appears</h4>
+        <img src="images/insets/sabaic_byt_almqh.jpg" alt="Hand-copied Sabaic letters reading byt ʾlmqh">
+        <p>From the hand copy of the first wall copy, read right to left: <b>b-y-t | ʾ-l-m-q-h</b>, “temple of Almaqah.”</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Sabaic</span><span class="tag temple">temple</span></div>
+      <p class="word s-sab" dir="rtl"><span class="r">𐩨𐩺𐩩</span> 𐩱𐩡𐩣𐩤𐩠</p>
+      <p class="word-gloss"><i>byt ʾlmqh</i>, “the temple (house) of Almaqah”</p>
+      <div class="block">
+        <h3>Transliteration (DASI, line 1)</h3>
+        <p class="translit">Ydʿʾl Ḏrḥ bn S¹mhʿly mkrb S¹bʾ gnʾ <span class="r">byt</span> ʾlmqh …</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“Ydʿʾl Ḏrḥ son of S¹mhʿly, mukarrib of Sabaʾ, built the temple of ʾlmqh …” <span class="who">(DASI / CSAI)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> inscription on the stone walls of the temple of Almaqah, <b>in situ</b> at Ṣirwāḥ · CIH 366 a (DASI 1045) · Early Sabaic, period A</p>
+      <p class="credit">Image after Fakhry, <i>An Archaeological Journey to Yemen (March–May 1947)</i>, 3 vols. (Cairo, 1952), via DASI; used under fair use. Text: DASI, CC BY 4.0.</p>
+      <div class="links">
+        <a href="https://dasi.cnr.it/project/1/epigraphs/1045" target="_blank" rel="noopener">DASI epigraph</a>
+        <a href="https://dasi.cnr.it/project/1/objects/1045" target="_blank" rel="noopener">DASI object</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Sabaic</h5>
+    <ul>
+      <li>The same text was carved several times into the walls of the Almaqah temple at Ṣirwāḥ; DASI's text is a composite (Wissmann's edition).</li>
+      <li>DASI word index: byt occurs 336 times in Sabaic, plus Minaic, Qatabanic and Ḥaḍramitic.</li>
+      <li>Bridge to Ethiopia: RIÉ 1, a Sabaic inscription found in Ethiopia, also has byt.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 11 · ARABIC -->
+<section class="slide" data-title="Arabic · Qurʾān 106:3">
+  <div class="slide-head"><span class="num">8 · Arabic</span><h2>“The Lord of this House”: Qurʾān 106:3</h2><span class="sub">Kufic Qurʾān fragment on parchment, est. 700–800</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure"><div class="frame">
+        <img src="images/arabic_BnF_Arabe324c_fol46v_Q106_gallica.jpg" alt="Parchment folio of a Kufic Qurʾān with an illuminated band and later sura headings">
+        <span class="hl two" style="left:5%;top:8.6%;width:23%;height:9.2%"></span>
+        <span class="hl-label" style="left:5%;top:8.6%">1 · al-ba…</span>
+        <span class="hl two" style="left:67.5%;top:16.7%;width:23.5%;height:9.8%"></span>
+        <span class="hl-label" style="left:67.5%;top:16.7%">2 · …yt</span>
+      </div></div>
+      <div class="inset">
+        <h4>Zoom: the word breaks across two lines</h4>
+        <img src="images/insets/arabic_albayt_split.jpg" alt="Two close-ups: the end of one line and the start of the next, joined by an arrow">
+        <p>Right: the end of line 2 (<span class="s-ara">الب…</span>). Left: the start of line 3 (<span class="s-ara">…يت الذي</span>). Kufic scribes freely split words at line ends.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Arabic</span><span class="tag temple">temple · the Kaʿba</span></div>
+      <p class="word s-ara" dir="rtl"><span class="r">ٱلۡبَيۡت</span></p>
+      <p class="word-gloss"><i>al-bayt</i>, “the House”</p>
+      <div class="block">
+        <h3>Text (Cairo 1924 reference text)</h3>
+        <p class="orig s-ara" dir="rtl">فَلۡيَعۡبُدُوا۟ رَبَّ هَٰذَا <span class="r">ٱلۡبَيۡتِ</span></p>
+        <p class="translit">fa-l-yaʿbudū rabba hādhā l-<span class="r">bayt</span>i</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“So let them worship the Lord of this House.” <span class="who">(Pickthall, via Corpus Coranicum)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> parchment, 12 lines, provenance al-Fusṭāṭ · <b>BnF, Arabe 324 (c), fol. 46v</b> (Q 106:2–107:7)</p>
+      <p class="credit">Source gallica.bnf.fr / Bibliothèque nationale de France.</p>
+      <div class="links">
+        <a href="https://corpuscoranicum.de/en/manuscripts/24/page/46v" target="_blank" rel="noopener">Corpus Coranicum folio</a>
+        <a href="http://gallica.bnf.fr/ark:/12148/btv1b8452552h" target="_blank" rel="noopener">Gallica</a>
+        <a href="https://corpuscoranicum.de/en/verse-navigator/sura/106/verse/3/manuscripts" target="_blank" rel="noopener">65 manuscripts of Q 106:3</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Arabic</h5>
+    <ul>
+      <li>Sura 106 (Quraysh): the Meccan caravans and “the Lord of this House,” the Kaʿba.</li>
+      <li>The vocalized text is the 1924 Cairo edition; the manuscript itself shows only the consonantal skeleton (rasm), unpointed.</li>
+      <li>Sura headings (سورة الدين, سورة الكوثر) were added later in a different hand.</li>
+      <li>Corpus Coranicum indexes 65 manuscripts containing this verse: a great example of verse-level discovery across collections.</li>
+      <li>Next: in Arabic poetics, bayt also names the line of verse, the sense that travels to Persian and Turkish.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 12 · GE'EZ / AMHARIC -->
+<section class="slide" data-title="Geʿez & Amharic · ቤት">
+  <div class="slide-head"><span class="num">9 · Geʿez / Amharic</span><h2>ቤት <i>bēt</i>: house and verse</h2><span class="sub">Dictionary evidence (object to come)</span></div>
+  <div class="obj">
+    <div class="dict-hero">
+      <div>
+        <div class="big s-eth"><span class="r">ቤት</span></div>
+        <p>No digitized manuscript yet: the Beta maṣāḥǝft database was unreachable during research.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Geʿez · Amharic</span><span class="tag house">house</span><span class="tag verse">verse</span><span class="tag status">dictionary only</span></div>
+      <div class="block">
+        <h3>Geʿez</h3>
+        <p class="orig s-eth"><span class="r">ቤት</span> <i>bēt</i>, pl. አብያት <i>ʾabyāt</i>, “house”</p>
+        <p class="meta">Construct ቤተ: ቤተ ክርስቲያን <i>beta krəstiyān</i>, “church” (“house of Christians”)</p>
+        <h3 style="margin-top:12px">Amharic</h3>
+        <p class="orig s-eth"><span class="r">ቤት</span> <i>bet</i></p>
+        <p class="meta">“house; room; family; generation; stall; <b>verse (of poetry)</b>; box, sheath; (grammar) person”</p>
+      </div>
+      <p class="credit">Source: Wiktionary, citing Dillmann, <i>Lexicon Linguae Aethiopicae</i> (Geʿez), Kane and Leslau 2000 (Amharic).</p>
+      <div class="links">
+        <a href="https://en.wiktionary.org/wiki/%E1%89%A4%E1%89%B5" target="_blank" rel="noopener">Wiktionary: ቤት</a>
+        <a href="https://dasi.cnr.it/project/1/epigraphs/7561" target="_blank" rel="noopener">RIÉ 1: Sabaic byt in Ethiopia</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Geʿez / Amharic</h5>
+    <ul>
+      <li>Amharic ቤት independently develops the meaning “verse of poetry,” the same leap as Arabic and Persian bayt.</li>
+      <li>To add: a digitized Ethiopian Gospel book open at John 14:2 (“in my Father's house”), e.g. from vHMML or Princeton.</li>
+      <li>Wiktionary is a starting point; cite Dillmann (1865, public domain), Kane or Leslau directly.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 13 · MALTESE -->
+<section class="slide" data-title="Maltese · bejt">
+  <div class="slide-head"><span class="num">10 · Maltese</span><h2><i>bejt</i>: the house becomes the roof</h2><span class="sub">Dictionary evidence</span></div>
+  <div class="obj">
+    <div class="dict-hero">
+      <div>
+        <div class="big"><span class="r">bej</span><span class="r">t</span></div>
+        <p>Maltese, the only Semitic language written in the Latin alphabet.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Maltese</span><span class="tag roof">roof</span><span class="tag status">dictionary only</span></div>
+      <div class="block">
+        <h3>Form</h3>
+        <p class="translit"><span class="r">bejt</span> (m.), pl. <span class="r">bjut</span> · root <span class="r">b-j-t</span></p>
+        <h3 style="margin-top:12px">Meaning</h3>
+        <p class="trans">“roof”; obsolete “house” (the everyday word for house is <i>dar</i>)</p>
+      </div>
+      <p class="credit">Source: Wiktionary (Maltese); for citation use Ġabra (University of Malta) or Aquilina's <i>Maltese–English Dictionary</i>.</p>
+      <div class="links">
+        <a href="https://en.wiktionary.org/wiki/bejt#Maltese" target="_blank" rel="noopener">Wiktionary: bejt</a>
+        <a href="https://mlrs.research.um.edu.mt/resources/gabra/lexemes/search?s=bejt" target="_blank" rel="noopener">Ġabra lexicon</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Maltese</h5>
+    <ul>
+      <li>Semantic narrowing: “house” → the flat roof of the house; “house” itself is now <i>dar</i>.</li>
+      <li>Derived expression in Wiktionary: <i>bejt ma' bejt</i>.</li>
+      <li>Possible image to add: an early public-domain Maltese dictionary page (e.g. Vassalli 1796 or Falzon 1845 on archive.org), or a Commons photo of Maltese rooftops.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 14 · PERSIAN -->
+<section class="slide" data-title="Persian · Ḥāfiẓ, Dīvān">
+  <div class="slide-head"><span class="num">11 · Persian</span><h2>The <i>bayt</i> as a unit of verse: Ḥāfiẓ, <i>Dīvān</i></h2><span class="sub">Copied Dhū al-Qaʿdah 923 AH / Nov.–Dec. 1517 CE, Iran</span></div>
+  <div class="obj">
+    <div>
+      <div class="figure center tall"><div class="frame">
+        <img src="images/persian_LoC_Hafiz_Divan_1517_M25_seq6_PD.jpg" alt="Illuminated opening page of a Persian manuscript with blue and gold borders around a central text panel">
+        <span class="hl" style="left:26.7%;top:43.5%;width:40.6%;height:10.3%"></span>
+      </div></div>
+      <div class="inset">
+        <h4>Zoom: one bayt (two half-lines)</h4>
+        <img src="images/insets/persian_first_bayt.jpg" alt="Close-up of the first couplet in nastaʿlīq script">
+        <p>The opening couplet of the first ghazal: two <i>miṣrāʿ</i> (half-lines) make one <b>bayt</b>.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Persian</span><span class="tag verse">verse</span></div>
+      <p class="word s-ara" dir="rtl"><span class="r">بیت</span></p>
+      <p class="word-gloss"><i>bayt</i>, pl. <span class="s-ara">ابیات</span> <i>abyāt</i>: “couplet, distich” (from Arabic)</p>
+      <div class="block">
+        <h3>The first bayt on this page (presenter's reading)</h3>
+        <p class="orig s-ara" dir="rtl">الا یا ایها الساقی ادر کأسا و ناولها<br>که عشق آسان نمود اول ولی افتاد مشکل‌ها</p>
+        <p class="translit">alā yā ayyuhā s-sāqī adir kaʾsan wa-nāwilhā / ki ʿishq āsān namūd avval valī uftād mushkil-hā</p>
+        <h3 style="margin-top:12px">Translation</h3>
+        <p class="trans">“O cupbearer, pass the cup around and offer it, / for love seemed easy at first, but then came difficulties.” <span class="who">(presenter's working translation)</span></p>
+      </div>
+      <p class="meta"><b>Object:</b> paper, 162 leaves, nastaʿlīq, scribe Munʿim al-Dīn al-Awḥadī · <b>Library of Congress, Persian MS M 25</b> (PK6465 .D5 1517)</p>
+      <p class="credit">Library of Congress, African and Middle East Division, Near East Section Persian Manuscript Collection. Public domain / no known restrictions.</p>
+      <div class="links">
+        <a href="https://www.loc.gov/item/2015481730/" target="_blank" rel="noopener">LoC record</a>
+        <a href="https://www.loc.gov/resource/amed.amedlplmp-m025/?sp=6" target="_blank" rel="noopener">Page viewer</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Persian</h5>
+    <ul>
+      <li>Here bayt is not a word on the page but the page's unit: each line of the layout is one bayt of two half-lines.</li>
+      <li>Persian keeps both senses (Wiktionary): bayt “couplet, distich” (pl. abyāt) and, chiefly in compounds, “house, building, temple” (pl. buyūt).</li>
+      <li>Caveat: the reading and translation of the couplet are mine; the manuscript's foliation (1a or 1b) is unconfirmed (image 6 in the LoC viewer).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 15 · TURKISH -->
+<section class="slide" data-title="Turkish · beyit">
+  <div class="slide-head"><span class="num">12 · Turkish</span><h2><i>beyit</i>: the couplet in Ottoman and modern Turkish</h2><span class="sub">Dictionary evidence (object to come)</span></div>
+  <div class="obj">
+    <div class="dict-hero">
+      <div>
+        <div class="big"><span class="r">beyit</span></div>
+        <p class="s-ara" style="font-size:40px;color:var(--ink)" dir="rtl"><span class="r">بیت</span></p>
+        <p>Ottoman <i>beyt</i> → modern Turkish <i>beyit</i></p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="lang-row"><span class="lang">Turkish</span><span class="tag verse">verse</span><span class="tag status">dictionary only</span></div>
+      <div class="block">
+        <h3>Form</h3>
+        <p class="translit"><span class="r">beyit</span>, acc. <span class="r">beyti</span>, pl. <span class="r">beyitler</span> · Ottoman <span class="s-ara">بیت</span> <i>beyt</i></p>
+        <h3 style="margin-top:12px">Meaning</h3>
+        <p class="trans">“a verse of classical Arabic, Persian, Turkic or Urdu poetry (similar to couplet)”</p>
+        <p class="meta" style="margin-top:6px">Related forms: <i>kaside, gazel, mesnevi, müstezat, muhammes</i></p>
+      </div>
+      <p class="credit">Source: Wiktionary (Turkish). Etymology: Ottoman بیت, from Arabic بَيْت.</p>
+      <div class="links">
+        <a href="https://en.wiktionary.org/wiki/beyit" target="_blank" rel="noopener">Wiktionary: beyit</a>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Turkish</h5>
+    <ul>
+      <li>Modern Turkish adds a vowel (beyt → beyit) but the suffixed forms keep the old shape: beyti, “its couplet.”</li>
+      <li>To add: an Ottoman divan or prosody (aruz) manual where a rubric reads بیت; Harvard, Princeton or Gallica often have public-domain scans.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 16 · SUMMARY -->
+<section class="slide" data-title="From house to verse">
+  <div class="slide-head"><span class="num">Summary</span><h2>From house to verse</h2></div>
+  <div class="flow">
+    <div class="block"><h3><span class="tag house">house</span></h3><div class="langs">Akkadian <i>bītu</i> · Ugaritic <i>bt</i> · Safaitic <i>h-bt</i> · Hebrew <i>bayit</i> · Geʿez <i>bēt</i></div><div class="ex">“If a man broke into a house …”</div></div>
+    <div class="block"><h3><span class="tag temple">temple</span></h3><div class="langs">Phoenician <i>bt lbʿl</i> · Sabaic <i>byt ʾlmqh</i> · Hebrew <i>bêt təpillâ</i> · Arabic <i>al-bayt</i></div><div class="ex">“the Lord of this House”</div></div>
+    <div class="block"><h3><span class="tag dynasty">dynasty</span></h3><div class="langs">Old Aramaic <i>bytdwd</i></div><div class="ex">“House of David”</div></div>
+    <div class="block"><h3><span class="tag roof">roof</span></h3><div class="langs">Maltese <i>bejt</i>, pl. <i>bjut</i></div><div class="ex">house → its roof</div></div>
+    <div class="block"><h3><span class="tag verse">verse</span></h3><div class="langs">Persian <i>bayt</i> · Turkish <i>beyit</i> · Amharic <i>bet</i> · Syriac <i>baytā</i> “strophe”</div><div class="ex">a poem built of “houses”</div></div>
+  </div>
+  <p class="punch">The same three consonants house a family, a god, a dynasty and a poem, and the objects that carry them now live in libraries, museums and open databases around the world.</p>
+  <div class="notes">
+    <h5>Speaker notes · Summary</h5>
+    <ul>
+      <li>The verse sense is attested independently in Syriac (CAL “strophe”), Arabic (and from it Persian and Turkish) and Amharic.</li>
+      <li>Close on access: CDLI, Oracc, EUPT, CAL, OCIANA (OSU), DASI, Corpus Coranicum, Gallica and LoC made this whole tour possible, and each has different licensing.</li>
+      <li>Invite questions; press G to jump back to any object.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 17 · SOURCES -->
+<section class="slide" data-title="Sources and image credits">
+  <div class="slide-head"><span class="num">Credits</span><h2>Sources and image credits</h2></div>
+  <div class="sources">
+    <p><b>Akkadian.</b> Photo: Rama, “Code of Hammurabi-Sb 8-IMG 7755-white,” CC BY-SA 3.0 FR, Wikimedia Commons. Text: CDLI P249253. Glossary: Oracc RINAP (CC BY-SA 3.0).</p>
+    <p><b>Ugaritic.</b> Drawing and text: KTU 1.14, Edition des ugaritischen poetischen Textkorpus (EUPT), Version Draft 3.2, ed. C. Steinberger et al.; copy by Noah Kröll. CC BY-SA 4.0.</p>
+    <p><b>Phoenician.</b> Photo: Onceinawhile, “Eshmunazar II sarcophagus (cleaned up),” CC BY-SA 4.0, Wikimedia Commons. Object data and French translation: Musée du Louvre, AO 4806. Text table: Wikipedia, citing Gzella 2011 and Amadasi Guzzo 2019.</p>
+    <p><b>Aramaic.</b> Photo: Gary Todd, CC0, Wikimedia Commons. Lexicon: Comprehensive Aramaic Lexicon (cal.huc.edu), entry by, bytˀ.</p>
+    <p><b>Hebrew.</b> Image: “The Great Isaiah Scroll MS A (1QIsa) – Google Art Project,” public domain, Wikimedia Commons (column 46 cropped). Column data: Israel Museum Digital Dead Sea Scrolls. Text: Sefaria, Miqra according to the Masorah (CC BY-SA); JPS translation (CC BY-NC).</p>
+    <p><b>Ancient North Arabian.</b> Hand copy after E. Littmann, <i>Safaïtic Inscriptions</i> (Leiden, 1943), no. 949, via OCIANA, ed. A. Al-Jallad and M.C.A. Macdonald; fair use.</p>
+    <p><b>Sabaic.</b> Image after A. Fakhry, <i>An Archaeological Journey to Yemen (March–May 1947)</i>, 3 vols. (Cairo: Government Press, 1952), via DASI; fair use. Text and translation: DASI, CC BY 4.0 (doi:10.82194/dasi-epi-1045).</p>
+    <p><b>Arabic.</b> Source gallica.bnf.fr / Bibliothèque nationale de France, Arabe 324 (c), fol. 46v. Text and translation: Corpus Coranicum (BBAW); Pickthall 1930.</p>
+    <p><b>Geʿez, Maltese, Turkish.</b> Wiktionary entries ቤት, bejt and beyit (CC BY-SA), citing Dillmann, Kane and Leslau.</p>
+    <p><b>Persian.</b> Library of Congress, Persian manuscript M 25, Ḥāfiẓ, <i>Dīvān</i> (1517). Public domain / no known restrictions.</p>
+    <p><b>Map.</b> Leaflet; tiles © OpenStreetMap contributors. Points plotted approximately by the presenter.</p>
+    <p><b>Research notes.</b> Full notes, caveats and rights statements: <a href="https://github.com/Nathaniel-A-Miller/bayt-house/blob/master/bayt_examples.md" target="_blank" rel="noopener">bayt_examples.md</a>.</p>
+  </div>
+  <div class="notes">
+    <h5>Speaker notes · Sources</h5>
+    <ul>
+      <li>Images marked “fair use” (Safaitic, Sabaic) are reproduced from published scholarship for non-commercial teaching.</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- controls -->
+<nav class="controls" aria-label="Slide controls">
+  <div class="left">
+    <button class="nav" id="prev" aria-label="Previous slide">←</button>
+    <span class="counter" id="counter">1 / 17</span>
+    <button class="nav" id="next" aria-label="Next slide">→</button>
+    <span class="timer" id="timer">0:00</span>
+  </div>
+  <div class="dots" id="dots"></div>
+  <div class="right">
+    <button id="grid-btn" class="hide-sm" title="Overview (G)">Overview</button>
+    <button id="notes-btn" title="Speaker notes (N)">Notes</button>
+  </div>
+</nav>
+
+<aside class="notes-panel" id="notes" aria-live="polite"><div class="body"></div></aside>
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Enlarged image"><button class="close">Close ✕</button><img alt=""></div>
+<div class="grid-view" id="grid"><h5>All slides · press G or Esc to close</h5><div class="cards"></div></div>
+
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/deck.js"></script>
+</body>
+</html>
