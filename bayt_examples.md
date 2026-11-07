@@ -11,7 +11,7 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
 | 3 | Phoenician | bt 𐤁𐤕 (*bīt*, "temple") | Basalt sarcophagus of Eshmunazar II, Sidon, c. 525–475 BC (Louvre) | Louvre AO 4806 (KAI 14), lid inscr. l. 18 | Yes, CC BY-SA 4.0 photo downloaded | High (object/line); text from Wikipedia's cited edition |
 | 4 | Aramaic / Syriac | `bytdwd` "House of David" (Old Aramaic); Syriac ܒܝܬܐ via CAL | Tel Dan basalt stele fragments, 9th c. BCE | Israel Museum, Jerusalem (IAA); CAL "TDanStel 9" | Yes, CC0 photo downloaded | High (word/object); IAA no. unverified; Syriac manuscript not found |
 | 5 | Hebrew | בֵּית / בֵיתִי (*bêt, bêtî*), Isa 56:7 (Masoretic wording) | Great Isaiah Scroll 1QIsaᵃ, Qumran, ca. 125 BCE | Israel Museum (Shrine of the Book), col. 46 (Isa 55:8–57:2) | Yes, public-domain column crop saved | High (column); scroll's exact spelling and line not verified |
-| 6 | Ancient North Arabian | **not found yet** | n/a | OCIANA (ociana.osu.edu) search blocked by verification | n/a | n/a |
+| 6 | Ancient North Arabian (Safaitic) | `h- bt` "the house" (*l bnkf h- bt* "This house belongs to Bnkf") | Rock inscription, in situ, al-ʿĪsāwī (Syria), found 1904–05 | OCIANA LP 949 (record 2744) | Hand copy on OCIANA (no reuse terms stated; not downloaded) | High |
 | 7 | Old South Arabian (Sabaic) | `byt` 𐩨𐩺𐩩 ("temple" of Almaqah) | Royal construction text on temple wall stones, Early Sabaic (Period A) | In situ, temple of Almaqah, Ṣirwāḥ (Yemen); CIH 366 a l. 1 (DASI 1045) | Image on DASI (third-party rights; not downloaded) | High (word); text is a composite of copies |
 | 8 | Arabic | al-bayt ٱلۡبَيۡتِ (Q 106:3) | Kufic Qur'an fragment on parchment, est. 700–800 | BnF, Arabe 324 (c), fol. 46v | Yes (viewer); rights unverified | High |
 | 9 | Ge'ez / Amharic | ቤት *bēt* "house" (Ge'ez, pl. አብያት); Amharic also "verse of poetry" | **Dictionary only** (Wiktionary citing Dillmann, Kane, Leslau) | n/a (Beta maṣāḥǝft unreachable) | No | High (word); no object |
@@ -218,17 +218,35 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
 
 ## 6. Ancient North Arabian
 
-**Status: not found yet. Blocked by a human-verification check, not by absence of data.**
+**Primary example: Safaitic inscription LP 949, al-ʿĪsāwī (Syria): `l bnkf h- bt` "This house [belongs] to Bnkf"**
 
-- **Where I looked:**
-  - OCIANA, now at **https://ociana.osu.edu/** (Ohio State; the old Oxford site krc.orient.ox.ac.uk/ociana did not respond).
-  - The Advanced Search (https://ociana.osu.edu/advanced_search) has the fields I need: "Transliterated Text", "Translation", Subjects such as "Building" and "Structure", and Script (Dadanitic, Taymanitic, Safaitic, Hismaic, etc.).
-  - Every submitted search returned to the form with **"Please complete verification"**, a CAPTCHA-type check. I did not attempt it.
-- **To finish:** pass the verification in your browser, then search one of:
-  - Translation = `house`, All Words
-  - Transliterated Text = `bt` (or `byt`), restricted to Dadanitic or Safaitic
-  - Each OCIANA record gives siglum, script, site, a photo where available and its rights line, which is all this section needs. I can complete it once the check is cleared.
-- **Talk point:** OCIANA is hosted by Ohio State (the site lists nesa.osu.edu faculty pages for Al-Jallad and Moore), a natural local connection for a campus visit.
+- **Form attested:** `bt`, with the definite article: `h- bt`. OCIANA transliteration: "l bnkf h- bt".
+  - No brackets or uncertainty marks in the OCIANA text.
+  - Original script: Safaitic (an Ancient North Arabian script). OCIANA's image is a hand copy, with the letters running right to left.
+- **Meaning:** "house". OCIANA's translation: "This house [belongs] to Bnkf". The bracketed "[belongs]" is OCIANA's supplied verb, not a restoration of text.
+- **Object:** quoted from the OCIANA record:
+  - Siglum: "LP 949"; Language and Script: "Safaitic"
+  - Site: "Al-ʿĪsāwī, Rif Dimašq Governorate, Syria"; Date Found: "1904–1905"; Current Location: "In situ"
+  - Subject: "Genealogy"; Old OCIANA ID: "#0009533"
+  - Reference: Littmann, E. *Safaïtic Inscriptions*. Princeton University Archaeological Expeditions to Syria in 1904–1905 and 1909, Div. IV, Sect. C. Leiden: Brill, 1943.
+  - The rock is still in situ, so there is no museum number.
+  - **No date is given.** (Safaitic texts are generally dated to roughly the last centuries BCE through the first centuries CE, but that is not from this record.)
+- **Reference:** the whole text is one line.
+- **URLs:**
+  - Record: https://ociana.osu.edu/inscriptions/2744
+  - Image: https://ociana.osu.edu/uploads/inscription_image/image/LP%20949/fullsize_im0082773.jpg. This is a **hand copy (facsimile)**, not a photograph; I viewed it to confirm.
+- **Rights:** I found **no license or reuse statement** on the record or on OCIANA's About, How to use, Links and Contributors pages. The only rights line is the footer "© 2024 The Ohio State University".
+  - **Image not downloaded.** For slide use, ask ociana@osu.edu. (Since OCIANA is hosted by OSU's NESA department, this is easy to ask during the visit.)
+  - Citation OCIANA asks for: "OCIANA, 'LP 949,' ed. A. Al-Jallad and M.C.A. Macdonald, OCIANA, 16 Sep, 2024. https://ociana.osu.edu/inscriptions/2744."
+- **Confidence: high.** The text is short and clear, the word is unrestored, and the edition translates it as "house".
+
+**How this was found:** an OCIANA advanced search (Transliterated Text `bt` + Translation `house`) returned 6 inscriptions. The user ran it after passing OCIANA's verification check; I then read the six public record pages.
+
+**Other hits from the same search:**
+- **ISB 20**, Safaitic, Site 2 on the survey, Al-Mafraq Governorate, Jordan (https://ociana.osu.edu/inscriptions/19186): "This house belongs to Ḍls¹ son of ʿlk", the same formula. **Caution:** OCIANA's commentary says "According to ISB the author wrote h/ s¹t instead of h/ bt". The reading `bt` is an editorial correction, so prefer LP 949.
+- **AH 197**, Dadanitic (https://ociana.osu.edu/inscriptions/15267): "…performed the pilgrimage of the top of the mountain and provided sufficient in their house…", with `b- bt -hm`. It is dated by regnal year ("year thirteen… {Tlmy} son of {Lḏn} {king of} {Lḥyn}"), but several names are in braces as uncertain. It has a photo-type image on OCIANA, not viewed.
+- **JSLih 041**, Dadanitic (https://ociana.osu.edu/inscriptions/15271): "the illustrious house of the lineage of ʿly". This is the abstract sense of "house" = lineage, and the translation is disputed in the apparatus.
+- **JSLih 077** and **Müller 1889 no. 10**, Dadanitic: `b- bt -h` / `mn bt -h` "in / from his house", in longer and partly damaged texts.
 
 ## 7. Old South Arabian (Sabaic)
 
