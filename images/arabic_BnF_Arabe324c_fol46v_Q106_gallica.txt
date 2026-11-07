@@ -1,0 +1,8 @@
+Object: Paris, Bibliothèque nationale de France, Arabe 324 (c), fol. 46v (Qur'an 106:2 - 107:7, Kufic, parchment, est. 700-800 per Corpus Coranicum)
+Gallica record: http://gallica.bnf.fr/ark:/12148/btv1b8452552h
+Downloaded from Corpus Coranicum's image server (2000 px width), which credits "gallica.bnf.fr / Bibliothèque nationale de France":
+  https://corpuscoranicum.de/en/manuscripts/24/page/46v
+Required credit: "Source gallica.bnf.fr / Bibliothèque nationale de France"
+Rights (Gallica conditions of use, as supplied by the owner of this repo, 2026-11-07):
+  "La réutilisation non commerciale de ces contenus est libre et gratuite dans le respect de la législation en vigueur et notamment du maintien de la mention de source des contenus telle que précisée ci-après : « Source gallica.bnf.fr / Bibliothèque nationale de France » ou « Source gallica.bnf.fr / BnF »."
+Use here: non-commercial, educational.

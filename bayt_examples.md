@@ -12,8 +12,8 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
 | 4 | Aramaic / Syriac | `bytdwd` "House of David" (Old Aramaic); Syriac ܒܝܬܐ via CAL | Tel Dan basalt stele fragments, 9th c. BCE | Israel Museum, Jerusalem (IAA); CAL "TDanStel 9" | Yes, CC0 photo downloaded | High (word/object); IAA no. unverified; Syriac manuscript not found |
 | 5 | Hebrew | בֵּית / בֵיתִי (*bêt, bêtî*), Isa 56:7 (Masoretic wording) | Great Isaiah Scroll 1QIsaᵃ, Qumran, ca. 125 BCE | Israel Museum (Shrine of the Book), col. 46 (Isa 55:8–57:2) | Yes, public-domain column crop saved | High (column); scroll's exact spelling and line not verified |
 | 6 | Ancient North Arabian (Safaitic) | `h- bt` "the house" (*l bnkf h- bt* "This house [belongs] to Bnkf") | Rock inscription, in situ, al-ʿĪsāwī (Syria), found 1904–05 | OCIANA LP 949 (record 2744) | Hand copy (Littmann 1943) saved under fair use | High |
-| 7 | Old South Arabian (Sabaic) | `byt` 𐩨𐩺𐩩 ("temple" of Almaqah) | Royal construction text on temple wall stones, Early Sabaic (Period A) | In situ, temple of Almaqah, Ṣirwāḥ (Yemen); CIH 366 a l. 1 (DASI 1045) | Image on DASI (third-party rights; not downloaded) | High (word); text is a composite of copies |
-| 8 | Arabic | al-bayt ٱلۡبَيۡتِ (Q 106:3) | Kufic Qur'an fragment on parchment, est. 700–800 | BnF, Arabe 324 (c), fol. 46v | Yes (viewer); rights unverified | High |
+| 7 | Old South Arabian (Sabaic) | `byt` 𐩨𐩺𐩩 ("temple" of Almaqah) | Royal construction text on temple wall stones, Early Sabaic (Period A) | In situ, temple of Almaqah, Ṣirwāḥ (Yemen); CIH 366 a l. 1 (DASI 1045) | Yes, saved under fair use (after Fakhry 1952, via DASI) | High (word); text is a composite of copies |
+| 8 | Arabic | al-bayt ٱلۡبَيۡتِ (Q 106:3) | Kufic Qur'an fragment on parchment, est. 700–800 | BnF, Arabe 324 (c), fol. 46v | Yes, saved (Gallica: free non-commercial reuse with source credit) | High |
 | 9 | Ge'ez / Amharic | ቤት *bēt* "house" (Ge'ez, pl. አብያት); Amharic also "verse of poetry" | **Dictionary only** (Wiktionary citing Dillmann, Kane, Leslau) | n/a (Beta maṣāḥǝft unreachable) | No | High (word); no object |
 | 10 | Maltese | *bejt* "roof" (obs. "house"), pl. *bjut* | **Online dictionary only** (Wiktionary) | n/a | No | High (word); use Ġabra or Aquilina for the citation |
 | 11 | Persian | بیت *bayt* "couplet" (unit, not written word) | Ḥāfiẓ, *Dīvān*, paper, Iran, 923 AH / 1517 CE | Library of Congress, Persian MS M 25 (PK6465 .D5 1517), image seq. 6 | Yes, public-domain image downloaded | High (object); word shown as unit only |
@@ -273,7 +273,9 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
 - **Rights, quoted from DASI:**
   - Record: "CC BY 4.0. The above license applies to the data in this record, but not to any images displayed. The images are the property of third parties and are either used with permission or reproduced from publications (see the credits below each image)."
   - Terms page: "The CC BY 4.0 license applies to data in the CSAI records, but not to any images displayed in the website."
-  - **Image not downloaded.**
+  - **Saved under fair use** at the repo owner's direction, as `images/sabaic_CIH366a_Sirwah_DASI_fair-use.jpg`, with a `.txt` note.
+  - The image is a compilation labeled "Fakhry 1+7", "Fakhry 2" and "Fakhry 3": photos and hand copies of the three wall copies from **Fakhry, Ahmed. 1952. *An Archaeological Journey to Yemen (March–May 1947)*. 3 vols. Cairo: Government Press**. DASI cites "Fakhry 1952: i, 54, fig. 20 (facsimile)" and "iii, pl. V".
+  - **Credit on slides as "After Fakhry 1952, via DASI".**
   - Citation given: "CSAI Team, CIH 366 a: a DASI Object resource. Digital Archive for the Study of pre-Islamic Arabian Inscriptions. https://doi.org/10.82194/dasi-obj-1045. First published: 2013-10-01."
 - **Confidence: high** for the word, the sense and the record. **Medium** for "one physical object", since the text is a composite of several wall copies.
 
@@ -297,7 +299,7 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
   - Estimated date: 700–800
   - Writing surface: parchment
   - Ductus: kūfī C.Ia
-- **Reference:** fol. 46v, which holds Q 105:1–107:7 per the page header.
+- **Reference:** fol. 46v. Corpus Coranicum's page data gives its contents as Q 106:2 (word 3) to 107:7. The folio shows the later-added headings سورة الدين (Sura 107) and سورة الكوثر (Sura 108).
 - **URLs:**
   - Verse-to-manuscript index for Q 106:3, listing 65 manuscripts: https://corpuscoranicum.de/en/verse-navigator/sura/106/verse/3/manuscripts
   - Folio viewer with the image: https://corpuscoranicum.de/en/manuscripts/24/page/46v
@@ -305,7 +307,10 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
 - **Image rights, quoted from the page:** "Picture credits / Image rights: gallica.bnf.fr / Bibliothèque nationale de France"
   - Corpus Coranicum gives no reuse license.
   - I could not read Gallica's own conditions of use: Gallica returned a Cloudflare challenge, and the BnF Archives et manuscrits site was not permitted in the browser.
-  - **No image downloaded.** Before using the image on a slide, check the Gallica record's "Conditions d'utilisation" (and get the ark URL from there).
+  - **Image saved.** Gallica's conditions of use, supplied by the repo owner: "La réutilisation non commerciale de ces contenus est libre et gratuite … [avec] la mention de source … « Source gallica.bnf.fr / Bibliothèque nationale de France »".
+  - Gallica record: http://gallica.bnf.fr/ark:/12148/btv1b8452552h (from Corpus Coranicum's page data).
+  - File: `images/arabic_BnF_Arabe324c_fol46v_Q106_gallica.jpg` (2000 px), with a `.txt` note.
+  - **Credit on slides as "Source gallica.bnf.fr / Bibliothèque nationale de France".**
 - **Confidence: high** that the folio contains the verse. Corpus Coranicum explicitly indexes this folio for Q 106:3.
   - I did not inspect the image myself to point to the line where the word البيت sits.
   - The dating (700–800) is an estimate from the record, not a carbon date.

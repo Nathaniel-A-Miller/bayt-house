@@ -1,0 +1,8 @@
+Object: CIH 366 a, royal construction inscription of Ydʿʾl Ḏrḥ, temple of ʾlmqh, Ṣirwāḥ (Yemen), in situ in the temple walls
+Image: compilation of photographs and hand copies of the three wall copies, labelled "Fakhry 1+7", "Fakhry 2", "Fakhry 3"
+Original publication: Fakhry, Ahmed. 1952. An Archaeological Journey to Yemen (March-May 1947). 3 vols. Cairo: Government Press. (DASI cites Fakhry 1952: i, 54, fig. 20 [facsimile] and iii, pl. V)
+Downloaded from DASI: https://de.dasi.cnr.it/cgi-bin/wsimg.pl?recId=1814&sessId=&size=high&type=.jpg
+DASI records: https://dasi.cnr.it/project/1/objects/1045 ; https://dasi.cnr.it/project/1/epigraphs/1045 (doi:10.82194/dasi-epi-1045)
+DASI terms: CC BY 4.0 for record data "but not to any images displayed"; images "are the property of third parties and are either used with permission or reproduced from publications".
+Used under fair use, at the repo owner's direction (2026-11-07): non-commercial scholarly and educational presentation, with attribution.
+Suggested credit: "After Fakhry 1952 (An Archaeological Journey to Yemen), via DASI (dasi.cnr.it)"
