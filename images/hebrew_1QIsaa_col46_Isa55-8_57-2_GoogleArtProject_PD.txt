@@ -1,0 +1,6 @@
+Source: crop (x = 9800-10980 px) of https://commons.wikimedia.org/wiki/File:The_Great_Isaiah_Scroll_MS_A_(1QIsa)_-_Google_Art_Project.jpg
+License on Commons: "Public domain" (Credit: "NAEMzlf5AD5yOQ at Google Cultural Institute maximum zoom level")
+Object: Great Isaiah Scroll (1QIsa a), Israel Museum, Jerusalem (Shrine of the Book)
+Column: 46, which covers Isa 55:8-57:2 per the Israel Museum viewer data (http://dss.collections.imj.org.il/viewer/data/isaiah.json)
+Crop checked visually against the Israel Museum's own column 46 image (not redistributed: "Copyright © The Israel Museum, Jerusalem")
+Created: 2026-11-06

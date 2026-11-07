@@ -1,0 +1,7 @@
+Source: https://eupt.uni-goettingen.de/api/eupt/img/KTU_1.14_Download.webp
+Record: https://eupt.uni-goettingen.de/edition.html (KTU 1.14)
+What: Autograph copy (drawing) of KTU 1.14, made by Noah Kröll (2025-04-03), per EUPT "Bildnotizen"
+License: "Bildlizenz: CC-BY-SA-4.0" (EUPT metadata panel)
+Credit: KTU 1.14. Edition des ugaritischen poetischen Textkorpus (EUPT). Version Draft 3.2. Ed. Clemens Steinberger et al.
+Object: Musée National d'Alep, M 8218 = A 2750 (AO 17.190)
+Downloaded: 2026-11-06
