@@ -11,7 +11,7 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
 | 3 | Phoenician | bt 𐤁𐤕 (*bīt*, "temple") | Basalt sarcophagus of Eshmunazar II, Sidon, c. 525–475 BC (Louvre) | Louvre AO 4806 (KAI 14), lid inscr. l. 18 | Yes, CC BY-SA 4.0 photo downloaded | High (object/line); text from Wikipedia's cited edition |
 | 4 | Aramaic / Syriac | `bytdwd` "House of David" (Old Aramaic); Syriac ܒܝܬܐ via CAL | Tel Dan basalt stele fragments, 9th c. BCE | Israel Museum, Jerusalem (IAA); CAL "TDanStel 9" | Yes, CC0 photo downloaded | High (word/object); IAA no. unverified; Syriac manuscript not found |
 | 5 | Hebrew | בֵּית / בֵיתִי (*bêt, bêtî*), Isa 56:7 (Masoretic wording) | Great Isaiah Scroll 1QIsaᵃ, Qumran, ca. 125 BCE | Israel Museum (Shrine of the Book), col. 46 (Isa 55:8–57:2) | Yes, public-domain column crop saved | High (column); scroll's exact spelling and line not verified |
-| 6 | Ancient North Arabian (Safaitic) | `h- bt` "the house" (*l bnkf h- bt* "This house [belongs] to Bnkf") | Rock inscription, in situ, al-ʿĪsāwī (Syria), found 1904–05 | OCIANA LP 949 (record 2744) | Hand copy on OCIANA (no reuse terms stated; not downloaded) | High |
+| 6 | Ancient North Arabian (Safaitic) | `h- bt` "the house" (*l bnkf h- bt* "This house [belongs] to Bnkf") | Rock inscription, in situ, al-ʿĪsāwī (Syria), found 1904–05 | OCIANA LP 949 (record 2744) | Hand copy (Littmann 1943) saved under fair use | High |
 | 7 | Old South Arabian (Sabaic) | `byt` 𐩨𐩺𐩩 ("temple" of Almaqah) | Royal construction text on temple wall stones, Early Sabaic (Period A) | In situ, temple of Almaqah, Ṣirwāḥ (Yemen); CIH 366 a l. 1 (DASI 1045) | Image on DASI (third-party rights; not downloaded) | High (word); text is a composite of copies |
 | 8 | Arabic | al-bayt ٱلۡبَيۡتِ (Q 106:3) | Kufic Qur'an fragment on parchment, est. 700–800 | BnF, Arabe 324 (c), fol. 46v | Yes (viewer); rights unverified | High |
 | 9 | Ge'ez / Amharic | ቤት *bēt* "house" (Ge'ez, pl. አብያት); Amharic also "verse of poetry" | **Dictionary only** (Wiktionary citing Dillmann, Kane, Leslau) | n/a (Beta maṣāḥǝft unreachable) | No | High (word); no object |
@@ -236,7 +236,7 @@ Working file for the Ohio State librarian campus-visit talk. Every form, date, s
   - Record: https://ociana.osu.edu/inscriptions/2744
   - Image: https://ociana.osu.edu/uploads/inscription_image/image/LP%20949/fullsize_im0082773.jpg. This is a **hand copy (facsimile)**, not a photograph; I viewed it to confirm.
 - **Rights:** I found **no license or reuse statement** on the record or on OCIANA's About, How to use, Links and Contributors pages. The only rights line is the footer "© 2024 The Ohio State University".
-  - **Image not downloaded.** For slide use, ask ociana@osu.edu. (Since OCIANA is hosted by OSU's NESA department, this is easy to ask during the visit.)
+  - **Saved under fair use** at the owner's direction, as `images/ancient_north_arabian_safaitic_LP949_handcopy_Littmann1943_fair-use.jpg`, with a `.txt` note giving the source and the rationale: a small facsimile from Littmann 1943, used for non-commercial scholarly and educational presentation, with attribution. Credit on slides as "after Littmann 1943, no. 949, via OCIANA".
   - Citation OCIANA asks for: "OCIANA, 'LP 949,' ed. A. Al-Jallad and M.C.A. Macdonald, OCIANA, 16 Sep, 2024. https://ociana.osu.edu/inscriptions/2744."
 - **Confidence: high.** The text is short and clear, the word is unrestored, and the edition translates it as "house".
 
